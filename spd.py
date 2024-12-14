@@ -3,7 +3,7 @@ import colour
 from colour import SpectralDistribution, sd_to_XYZ, XYZ_to_xy
 
 # Read the spectral data from the file
-file_path = '007.txt'
+file_path = '012.txt'
 data = np.loadtxt(file_path, skiprows=1)
 
 # Extract wavelengths and values
