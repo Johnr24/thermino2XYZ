@@ -44,4 +44,7 @@ sd = SpectralDistribution(mean_values, mean_wavelengths)
 XYZ = sd_to_XYZ(sd)
 
 # Convert XYZ coordinates to xy chromaticity coordinates
+xy = XYZ_to_xy(XYZ)
+
 print("XYZ tristimulus values:", XYZ)
+print("White point (xy chromaticity coordinates):", xy)
