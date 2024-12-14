@@ -8,7 +8,7 @@ data = np.loadtxt(file_path, skiprows=1)
 
 # Extract wavelengths and values
 wavelengths = data[:, 0]
-values = data[:, 1] / 100.0  # Convert percentage to decimal
+values = data[:, 1] / 1000.0  # Convert percentage to decimal
 
 # Initialize variables to store the current interval and its values
 current_nm = int(wavelengths[0])
